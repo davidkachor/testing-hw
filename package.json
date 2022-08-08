@@ -1,0 +1,22 @@
+{
+  "name": "js-testing-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --outdir dist",
+    "start": "node dist/src/snake-array-creator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "jest": "^28.1.3",
+    "ts-node": "^10.9.1"
+  }
+}
